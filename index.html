@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/uikit.min.css">       
+    <link rel="shortcut icon" href="img/bootstrap.png" type="image/x-icon">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <!-- navbar -->    
+    <nav class="navbar navbar-expand-md py-4 navbar-dark" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Logo</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </nav>
+
+    <!-- carousel slider     -->
+    <section id="slider" class="bg-dark">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                <li data-slide-to="2" data-target="#myCarousel"></li>
+                <li data-slide-to="3" data-target="#myCarousel"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item carousel-img-1 active">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                            <h2 class="display-4">Lorem, ipsum dolor.</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat dolores. Culpa ipsa pariatur consequuntur qui cupiditate beatae explicabo harum!</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-2">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+                            <h2 class="display-4">Lorem, ipsum dolor.</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat dolores. Culpa ipsa pariatur consequuntur qui cupiditate beatae explicabo harum!</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+                            <h2 class="display-4">Lorem, ipsum dolor.</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat dolores. Culpa ipsa pariatur consequuntur qui cupiditate beatae explicabo harum!</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-img-4">
+                    <div class="container">
+                        <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                            <h2 class="display-4">Lorem, ipsum dolor.</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat dolores. Culpa ipsa pariatur consequuntur qui cupiditate beatae explicabo harum!</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Home icon -->
+    <section id="icon" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci laudantium rerum alias omnis veritatis.</p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci laudantium rerum alias omnis veritatis.</p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <i class="fas fa-cart-plus"></i>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci laudantium rerum alias omnis veritatis.</p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- get started -->    
+    <section id="getStarted" class="text-center text-light py-5">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-5 pt-5">
+                        <h2>Are You Ready To Get Started?</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quam a rerum molestiae sequi iste laborum alias pariatur repellat et.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- info -->
+    <section class="text-center py-5" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 align-self-center mb-4">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aperiam repellendus deleniti voluptates tempore veritatis reprehenderit, quasi delectus deserunt neque!</p>
+                    <button class="btn btn-outline-danger">Read More</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="img/computer.jpeg" class="img-fluid rounded" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- quotes -->
+    <section id="quote" class="text-center text-light py-5">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-5 pt-5">
+                        <h5 class="lead">“Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine.”</h5>
+                        <h2>Jack Ma</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-5" uk-lightbox>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h4>Photo Gallery</h4>
+                    <p class="lead">Check out our photos </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/man3.jpeg"><img src="img/man3.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/woman1.jpeg"><img src="img/woman1.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>                    
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/man1.jpeg"><img src="img/man1.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/woman2.jpeg"><img src="img/woman2.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/man2.jpeg"><img src="img/man2.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div>
+                        <a href="img/woman3.jpeg"><img src="img/woman3.jpeg" class="img-fluid" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter -->
+    <section class="bg-dark py-5 text-light text-center" id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Signup For Our Newsletter</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ad iusto at doloribus odit maiores.</p>
+                    <form action="">
+                        <div class="form-group form-inline justify-content-center">
+                            <div class="row">
+                                <div class="col-lg-4 mx-3 mt-3">
+                                    <input type="text" placeholder="Name" class="form-control form-control-lg">                                    
+                                </div>
+                                <div class="col-lg-4 mx-3 mt-3">
+                                    <input type="email" placeholder="Email" class="form-control form-control-lg">                                    
+                                </div>
+                                <div class="col-lg-3 mt-3">                                    
+                                    <button class="btn btn-outline-danger btn-lg">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center text-light py-5" id="footer">
+        <div class="container">
+            <span>Copyright &copy; 2021</span><br>
+            <span>Designed by <strong>Hachib</strong></span>
+        </div>
+    </footer>
+    <!-- javaScript -->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

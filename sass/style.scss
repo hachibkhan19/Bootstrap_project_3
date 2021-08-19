@@ -1,0 +1,121 @@
+$icon-size: 50px;
+
+/* navbar */
+.navbar{
+    background-color: rgb(0, 0, 0);    
+    .nav-item{
+        padding-left: 20px
+    }
+    .nav-link{
+        text-transform: uppercase;
+    }
+}
+/* carousel slider */
+.carousel-item{
+    height: 510px;
+}
+.carousel-img-1{
+    background: url(../img/happy1.jpeg);
+    background-size: cover;
+}
+.carousel-img-2{
+    background: url(../img/happy2.jpeg);
+    background-size: cover;
+}
+.carousel-img-3{
+    background: url(../img/happy3.jpeg);
+    background-size: cover;
+}
+.carousel-img-4{
+    background: url(../img/happy4.jpeg);
+    background-size: cover;
+}
+
+/* icon */
+#icon{
+    .fas{
+        font-size: $icon-size;
+        margin-bottom: 12px;
+    }
+}
+
+#getStarted{
+    background: url(../img/girl1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+    .overlay{
+        background: rgba(0, 0, 0, 0.7);
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }     
+}
+
+/* quote */
+#quote{
+    background: url(../img/working.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 300px;
+    position: relative;
+    .overlay{
+        background: rgba(0, 0, 0, 0.7);
+        min-height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }     
+}
+
+/* footer */
+#footer{
+    background: #000000;
+}
+
+/* about page */
+#heading{
+    background: url(../img/nature.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+#about-info{
+    img{
+        width: 350px;
+        height: 350px;
+    }
+}
+#icon-boxes{
+    background:#EEEEEE;
+    .fas{
+        font-size: $icon-size;
+        margin-bottom: 20px;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    color:#ff0000;
+}
+
+/* media query */
+@media (max-width: 450px){
+    .carousel{
+        h2{
+            font-size: 2rem;
+        }
+    }
+}
+@media (max-width: 768px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+}
